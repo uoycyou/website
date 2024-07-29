@@ -29,7 +29,7 @@ h6::before {
     animation: ccc 4s linear infinite;
 }
 
-/* 控制风车转动方向 -1turn 为逆时针转动，1turn 为顺时针转动，相同数字部分记得统一修改 */
+/* 控制风车转动方向 -1turn 为逆时针转动, 1turn 为顺时针转动, 相同数字部分记得统一修改 */
 @-webkit-keyframes ccc {
     0% {
         -webkit-transform: rotate(0deg);
