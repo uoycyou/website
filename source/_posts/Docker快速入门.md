@@ -3,10 +3,11 @@ title: Docker快速入门
 tags:
   - Docker
   - 快速入门
+  - 命令指南
 categories:
   - Docker
-cover: https://raw.githubusercontent.com/uoycyou/pichost/main/wide/202406021253743.webp
-description: 对于Docker的安装指南和常用命令进行总结
+cover: https://pic.zeng.cyou/wide/202406021253741.webp
+description: 详细讲解如何快速安装和配置Docker,包括常用命令指南
 swiper_index: 1
 abbrlink: 2763
 date: 2024-05-21 22:25:48
@@ -77,7 +78,7 @@ sudo systemctl restart docker
 
 ### Docker-Compose
 
-运行以下命令以下载Docker Compose的当前稳定版本:
+运行以下命令可以安装Docker Compose的当前稳定版本:
 
 ```shell
 sudo curl -L "https://github.com/docker/compose/releases/download/v2.21.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose

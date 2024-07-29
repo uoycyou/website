@@ -5,8 +5,8 @@ tags:
   - 中间件
 categories:
   - Docker
-cover: https://raw.githubusercontent.com/uoycyou/pichost/main/wide/202406021253744.webp
-description: 使用Docker安装各个中间件的总结
+cover: https://pic.zeng.cyou/wide/202406021253742.webp
+description: 使用Docker安装和配置各种中间件的详细指南
 swiper_index: 2
 abbrlink: 41876
 date: 2024-05-25 22:44:43
@@ -71,7 +71,6 @@ vim /data/mysql/docker-compose.yml
 ```
 
 ```yaml
-version: '3.9'
 services:
     mysql:
         image: mysql:8.0.34
@@ -265,7 +264,6 @@ vim /data/redis/docker-compose.yml
 ```
 
 ```yaml
-version: '3.9'
 services:
     redis:
         image: redis:6.0
@@ -328,7 +326,6 @@ vim /data/nginx/docker-compose.yml
 ```
 
 ```yaml
-version: '3.9'
 services:
     nginx:
         image: nginx
@@ -609,7 +606,6 @@ vim /data/nacos/docker-compose.yml
 ```
 
 ```yaml
-version: '3.9'
 services:
     nacos-server:
         image: nacos/nacos-server
@@ -668,7 +664,6 @@ vim /data/minio/docker-compose.yml
 ```
 
 ```yaml
-version: '3.9'
 services:
     minio:
         image: quay.io/minio/minio
@@ -836,7 +831,6 @@ vim /data/xxl-job/docker-compose.yml
 记得修改mysql的连接地址,accessToken的默认值就是default_token,当然也可以对其进行修改
 
 ```yaml
-version: '3.9'
 services:
     xxl-job-admin:
         image: xuxueli/xxl-job-admin:2.4.0
@@ -892,7 +886,6 @@ vim /data/rabbitmq/docker-compose.yml
 ```
 
 ```yaml
-version: '3.9'
 services:
     rabbitmq:
         image: rabbitmq:3.12.12-management
@@ -1082,7 +1075,6 @@ vim /data/rocketmq/docker-compose.yml
 ```
 
 ```yaml
-version: '3.9'
 services:
     rocketmq-namesrv:
         image: foxiswho/rocketmq:4.8.0
@@ -1237,7 +1229,6 @@ vim /data/kafka/docker-compose.yml
 记得修改kafka-server为宿主机地址
 
 ```yaml
-version: '3.9'
 services:
     zookeeper:
         image: zookeeper

@@ -234,7 +234,7 @@ aside:
       text: Follow Me
       link: https://github.com/uoycyou
   card_announcement:
-    enable: true
+    enable: false
     content: This is my Blog
   card_recent_post:
     enable: true
@@ -733,7 +733,7 @@ beautify:
 font:
   global-font-size:
   code-font-size:
-  font-family: Cascadia Mono
+  font-family:
   code-font-family: Cascadia Mono
 
 # Font settings for the site title and site subtitle
