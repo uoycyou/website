@@ -11,10 +11,10 @@ date: 2024-05-20 00:00:00
 
 ## 技术栈
 
-- 前端：HTML/CSS/JavaScript
+- 前端: HTML/CSS/Java(Type)Script
   - Vue
-- 后端：Java
+- 后端: Java
   - Spring/SpringBoot/SpringCloud
-- 数据库：MySQL/Redis
-- 服务器：Nginx
-- 其他：Git/Linux/Docker
+- 数据库: MySQL/Redis
+- 服务器: Nginx
+- 其他: Git/Linux/Docker
