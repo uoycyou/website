@@ -1,5 +1,5 @@
 ---
-title: 全局异常处理类
+title: SpringBoot全局异常处理
 tags:
   - Java
   - Handler
@@ -45,7 +45,7 @@ public class CustomException extends RuntimeException {
 }
 ```
 
-## 全局异常处理类
+## 全局异常处理器
 
 ```java
 @ControllerAdvice

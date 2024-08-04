@@ -1,5 +1,5 @@
 ---
-title: 自定义通用响应类
+title: SpringBoot封装统一返回体
 tags:
   - Java
   - SpringBoot
